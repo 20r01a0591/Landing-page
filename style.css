@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:ital,wght@1,400;1,500&family=Source+Code+Pro:wght@200&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Dancing+Script:wght@600&family=Open+Sans:ital,wght@1,400;1,500&family=Source+Code+Pro:wght@200&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-padding-top:2rem;
+    text-decoration:none;
+    list-style:none;
+    scroll-behavior:smooth;
+}
+nav.fas{
+    display:none;
+}
+.btn{
+ border:2px solid #ccc;
+ border-radius: 30px;
+ padding:10px 20px;
+ margin-top:10px;
+ background:#cac2c5;
+}
+.content .head1{
+font-family: 'Dancing Script', cursive;
+font-size:-webkit-xxx-large;
+color:#ff3670;
+}
+.content .head2{
+    font-family: 'Source Code Pro', monospace;
+}
+.content .head3{
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+#home{
+    background-image: url('background3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:10%;
+    }
+.content{
+    margin-left:24%;
+    padding-top:10%;
+    line-height: 65px;
+    font-size:x-large;
+}
+.logo img{
+    height:80px;
+    display:flex;
+    flex-basis:10%;
+    margin-left:10px;
+}
+a:hover{
+    color:red;
+}
+nav li {
+   /* background-color: #ebe9e9;*/
+    display:flex;
+    list-style: none;
+    margin:4px 18px;
+    color:#171414;
+    font-size: x-large;
+    box-shadow:1px 0px grey;
+    padding:5px 10px;
+    text-decoration: none;
+}
+
+#navbar{
+    margin-left:200px;
+    display:flex;
+}
+a{
+    text-decoration: none;
+    color:#e93c28;
+}
+.rowhome{
+    display:flex;
+    flex-wrap: wrap;
+}
+.logo{
+    flex-basis:10%;
+}
+.nav{
+    flex-basis:90%;
+}
+/*--------------------------about-----------*/
+#about{
+    padding:80px 0;
+    background-color: #45424b;
+  /*  background-image: url(aboutpage2.jpg);*/
+}
+.row{
+    display:flex;
+   justify-content:center;
+    flex-wrap:wrap;
+}
+.col-1{
+    flex-basis:35%;
+}
+.col-1 img{
+    width:95%;
+    border-radius:5px;
+    height:100%;
+}
+.col-2{
+    flex-basis:60%;
+}
+.col-2 > .btn{
+    background-color:#a49fa0;
+    border:2px solid #ccc;
+    border-radius:20px;
+    padding:8px;
+    text-decoration: none;
+    color:black;
+}
+/*------------------recipies------------*/
+#menu{
+    margin:0;
+    padding:1px;
+    background-image: url('menubackground.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.classmenu{
+   margin-left:40%;
+}
+
+table{
+    border-collapse:separate;
+    border-spacing:25px;
+}
+th{
+    color:rgb(226, 168, 168);
+    border-spacing:30px;
+    padding:5px 0;
+    box-shadow:1px 3px #ebe9e9;
+    font-size:x-large;
+    font-family: cursive;
+}
+.tab{
+    padding-left:150%;
+    margin-left:200%;
+}
+td{
+    color:#ebe9e9;
+}
+
+/*---------products-------*/
+.heading{
+    text-align:center;
+    text-transform: uppercase;
+}
+.heading span{
+    font-size:1rem;
+    font-weight: 600;
+    color:var(--second-color);
+}
+.heading h1{
+    font-size: 2rem;
+    color:var(--main-color);
+}
+.shop-container{
+ display:flex;
+ flex-wrap:wrap;
+ gap:1rem;
+ margin-top:5rem;   
+}
+section{
+    padding:50px 10%;
+}
+img{
+    width:100%;
+}
+.shop-container .box{
+    background:#65493e;
+    border-radius:1rem;
+    box-shadow:0 .5rem 1rem rgb(0,0,0,0.1);
+    overflow:hidden;
+    padding-bottom:1rem;
+}
+.shop-container .box >h2,span{
+    margin-left:0.5rem;
+}
+
+.shop-container .box .box-img{
+    height:225px;
+    overflow:hidden;
+    width:225px;
+}
+
+
+.shop-container .box .box-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.stars{
+    margin:1rem 0 0.1rem;
+}
+.shop-container .box .stars .bx{
+    color:#f4bc77;
+}
+
+.shop-container .box .stars .st.bx{
+    color:none;
+}
+.shop-container .box h2{
+    color:#f3e4ea;
+    font-size:1.2rem;
+}
+.shop-container .box span{
+    color:#ebdbc7;
+    font-size:1.4rem;
+    font-weight:500;
+    /*margin:0.2rem 0 0.5rem;*/
+}
+.box .btn{
+    border:2px solid #ebdbc8;
+    color:black;
+    border-radius: 20px;
+    padding:8px;
+    display:block;
+    text-align:center;
+    width:148px;
+    margin-left:.5rem;
+}
+.btn:hover,.box .btn:hover{
+    background:#ebdbc8;
+
+}
+
+/*contact*/
+#contact{
+    background-color:#45424b
+}
+.footer .footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0rem, 1fr));
+    gap: 0.5rem;
+ }
+ 
+ .footer .footer-container .foot h3{
+    padding: 0.5rem 0;
+    color:#8a94b1;
+ }
+ 
+ .footer .footer-container .foot a{
+    display: block;
+    color: black;
+    padding: 0.2rem 0;
+ }
+ 
+ .footer .footer-container .foot a i{
+    color:#8a94b1;
+    padding-right: .5rem;
+ }
+ 
+ .footer .footer-container .foot a:hover i{
+    padding-right: 1rem;
+ }
+ 
+ .footer .credit{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    color: black;
+ }
+ 
+ .footer .credit span{
+    color: #ebdbc7;
+ }
+ 
+ /* end */
+ 
+ /* media query */
+
+    nav .first.fas{
+        display:none;
+    }
+ @media only screen and (max-width:600px){
+ /*------sidemenu-----*/ 
+  nav .first.fas{
+    display: block;
+    font-size: 25px;
+    margin-left:90%;
+    margin-top:20px;
+}
+nav ul{
+    background:#e9d4da;
+    position: fixed;
+    top:0;
+    right:-200px;
+    width:200px;
+    height:100vh;
+    padding-top:50px;
+    z-index:2;
+    transition:right 0.5s;
+}
+nav ul li{
+    display: block;
+    margin:25px;
+}
+nav ul .first.fas{
+    position:absolute;
+    top:25px;
+    right:25px;
+    cursor:pointer;
+}
+#navbar{
+    display:block;
+}
+/* about*/
+.classmenu{
+    margin-left:16%;
+ }
+ 
+ .tab{
+    padding-left:150%;
+    margin-left:200%;
+}
+.col-1 img{
+    width:95%;
+    height:80%;
+    border-radius: 5px;
+}
+#about{
+    padding:10px 10px;
+}
+.row{
+    display:block;
+}
+.col-2{
+    margin-top:8px;
+}
+.footer .footer-container .foot a{
+    font-size:20px;
+}
+}
